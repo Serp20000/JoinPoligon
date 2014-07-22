@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Application
 {
-    private List<Point> poligon1=new LinkedList<Point>();   //Poligon from file 1
+    private List<Point> poligon1=new LinkedList<Point>();    //Poligon from file 1
     private List<Point> poligon2=new LinkedList<Point>();   //Poligon from file 2
     private List<Point> currentPol=new LinkedList<Point>();
     private List<Point> secondPol=new LinkedList<Point>();
     private List<Point> poligonJoin=new LinkedList<Point>();
-    private List<Point> pointIntersection=new LinkedList<Point>(); //All Point Intercection
+    private List<Point> pointIntersection=new LinkedList<Point>();  //All Point Intercection
     private List<Integer> indexPoligon1=new LinkedList<Integer>(); //Индексы вершин граней пересечения пол 1
     private List<Integer> indexPoligon2=new LinkedList<Integer>(); //Индексы вершин граней пересечения пол 2
     private List<Integer> curIndex=new LinkedList<Integer>();
